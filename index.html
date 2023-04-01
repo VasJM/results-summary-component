@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+    <title>Frontend Mentor | Results summary component</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <article>
+            <!-- Your Result Container START -->
+            <div class="result">
+                <h1>Your Result</h1>
+                <div class="result_score circle">
+                    <span class="final-score">76</span>
+                    <span class="total">of 100</span>
+                </div>
+                <div class="result_info">
+                    <span class="p-head">Great</span>
+                    <p>You scored higher than 65% of the people who have taken these tests.</p>
+                </div>
+            </div>
+            <!-- END -->
+            <!-- Summary Container START -->
+            <div class="summary">
+                <h2>Summary</h2>
+                <ul class="categories">
+                    <!-- Category 01 START -->
+                    <li class="category">
+                        <!-- Title -->
+                        <div class="category_title title-01">
+                            <div class="icon">
+                                <img src="assets/images/icon-reaction.svg" alt="">
+                            </div>
+                            Reaction
+                        </div>
+                        <!-- Score -->
+                        <div class="category_score">
+                            <span class="score">80</span> <span class="out-of">/ 100</span>
+                        </div>
+                    </li>
+                    <!-- END -->
+                    <!-- Category 02 START -->
+                    <li class="category">
+                        <!-- Title -->
+                        <div class="category_title title-02">
+                            <div class="icon">
+                                <img src="assets/images/icon-memory.svg" alt="">
+                            </div>
+                            Memory
+                        </div>
+                        <!-- Score -->
+                        <div class="category_score">
+                            <span class="score">92</span> <span class="out-of">/ 100</span>
+                        </div>
+                    </li>
+                    <!-- END -->
+                    <!-- Category 03 START -->
+                    <li class="category">
+                        <!-- Title -->
+                        <div class="category_title title-03">
+                            <div class="icon">
+                                <img src="assets/images/icon-verbal.svg" alt="">
+                            </div>
+                            Verbal
+                        </div>
+                        <!-- Score -->
+                        <div class="category_score">
+                            <span class="score">61</span> <span class="out-of">/ 100</span>
+                        </div>
+                    </li>
+                    <!-- END -->
+                    <!-- Category 04 -->
+                    <li class="category">
+                        <!-- Title -->
+                        <div class="category_title title-04">
+                            <div class="icon">
+                                <img src="assets/images/icon-visual.svg" alt="">
+                            </div>
+                            Visual
+                        </div>
+                        <!-- Score -->
+                        <div class="category_score">
+                            <span class="score">72</span><span class="out-of">/ 100</span>
+                        </div>
+                    </li>
+                    <!-- END -->
+                </ul>
+                <!-- Button -->
+                <button>Continue</button>
+            </div>
+            <!-- END -->
+        </article>
+    </main>
+</body>
+
+</html>
